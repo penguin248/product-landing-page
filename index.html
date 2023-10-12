@@ -1,11 +1,156 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://cdn.freebiesupply.com/logos/thumbs/2x/python-3-logo.png"
+            alt="Python logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#what-to-expect">What to expect</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="feat">
+        <h2>Online Python Course</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-laptop"></i></div>
+            <div class="desc">
+              <h2>Comprehensive Curriculum</h2>
+              <p>
+                Our Python course offers a comprehensive curriculum that starts
+                with the fundamentals and progresses to advanced topics. You'll
+                learn Python's syntax, data structures, object-oriented
+                programming, web development, data analysis, and more. Whether
+                you're a beginner or an experienced programmer, our course
+                caters to your learning needs
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="desc">
+              <h2>Interactive Learning</h2>
+              <p>
+                Experience interactive learning with our Python course. You'll
+                have access to coding exercises, quizzes, and real-world
+                projects that reinforce your understanding and allow you to
+                apply what you've learned. We believe in learning by doing, and
+                our course ensures you gain practical skills.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Flexible Learning Options</h2>
+              <p>
+                We offer flexible learning options to suit your schedule.
+                Whether you prefer self-paced learning or live instructor-led
+                sessions, our course accommodates your needs. Plus, you'll have
+                access to course materials and resources for a specified period,
+                allowing you to learn at your own pace and revisit the content
+                as needed.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="what-to-expect">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/z9fOgbzxXl0?si=W6j-i6XegkF3Px0M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">Python essentials</div>
+            <h2>$60</h2>
+            <ol>
+              <li>Comprehensive Curriculum.</li>
+              <li>Self-Paced Learning.</li>
+              <li>Interactive Quizzes.</li>
+              <li>Certificate of Completion.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Python Mastery</div>
+            <h2>$130</h2>
+            <ol>
+              <li>Instructor-Led Webinars.</li>
+              <li>Real-World Projects.</li>
+              <li>Dedicated Support.</li>
+              <li>Networking Community:.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Python Pro</div>
+            <h2>$250</h2>
+            <ol>
+              <li>One-on-One Coaching.</li>
+              <li>Advanced Topics.</li>
+              <li>Job Placement Assistance.</li>
+              <li>Lifetime Access to Updates.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright, Python course</span>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
